@@ -10,5 +10,6 @@ namespace ConsoleApp7
 	{
 		public T value;
 		public Node<T> next;
+		public Node<T> prev;
 	}
 }

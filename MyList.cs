@@ -40,5 +40,17 @@ namespace ConsoleApp7
 					last = last.next;
 				}
 			}
+		public void Add2(T v1)
+		{
+			Node<T> b = new Node<T>();
+			b.value = v1;
+			if (firstElement != null)
+			{
+				firstElement.prev = b;
+				b.next = firstElement;
+				firstElement = b;
+			}
+			else firstElement = b;
+		}
 	}
 }

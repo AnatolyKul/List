@@ -15,7 +15,7 @@ namespace ConsoleApp7
 			list.Add(32);
 			list.Add(1);
 			list.Add(52);
-			list.Add(13);
+			list.Add2(13);
 			list.Print();
 			Console.ReadKey();
 		}
